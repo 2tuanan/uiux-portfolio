@@ -4,12 +4,18 @@
 
 /* HEADER section */
 .logo {
+  color: #000;
   height: 10vmin;
   pointer-events: none;
 }
 
+.logo:hover {
+  color: #ffc26f;
+  transition: color .6s;
+}
+
 .container.nav { 
-  max-width: 1300px; 
+  max-width: 1500px; 
   text-align: left;
   background-color: #fff; 
   justify-content: space-between;
@@ -43,8 +49,8 @@
 .nav-links.cta {
   color: #fff;
   letter-spacing: 1px;
-  background-color: #ffc261; 
-  border: 2px solid #ffc261; 
+  background-color: #ffc26f; 
+  border: 2px solid #ffc26f; 
   border-radius: 40px; 
   margin-left: 25px; 
   padding: 17px 18px 15px;
@@ -55,5 +61,5 @@
 .nav-links.cta:hover {
   color: #ffc261;
   background-color: #fff;
-  border: 2px solid #ffc261;
+  border: 2px solid #ffc26f;
 }

@@ -9,6 +9,7 @@ export const Header = () => {
             <a href="/#service" className="nav-links">SERVICE</a>
             <a href="mailto:pantoan288@gmail.com" className="nav-links cta">CONTACT ME</a>
         </div>
+        
     </div>
   )
 }
