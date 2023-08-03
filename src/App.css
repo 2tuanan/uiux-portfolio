@@ -2,37 +2,58 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+/* HEADER section */
+.logo {
+  height: 10vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.container.nav { 
+  max-width: 1300px; 
+  text-align: left;
+  background-color: #fff; 
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 15px 25px;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.menu-link {
+  align-items:center;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-links
+{
+  color: #000;
+  letter-spacing: 1px; 
+  padding-left: 20px; 
+  padding-right: 20px;
+  font-family: Exo, sans-serif; 
+  font-size: 20px; 
+  font-weight: 700; 
+  text-decoration: none;
+  transition: color .5s;
+}
+
+.nav-links:hover, .nav-links:visited {
+  color: #ffc26f;
+}
+
+.nav-links.cta {
+  color: #fff;
+  letter-spacing: 1px;
+  background-color: #ffc261; 
+  border: 2px solid #ffc261; 
+  border-radius: 40px; 
+  margin-left: 25px; 
+  padding: 17px 18px 15px;
+  transition: color .7s cubic-bezier(.77, 0, .175, 1), background-color .7s;
+  display: block;
+}
+
+.nav-links.cta:hover {
+  color: #ffc261;
+  background-color: #fff;
+  border: 2px solid #ffc261;
 }
