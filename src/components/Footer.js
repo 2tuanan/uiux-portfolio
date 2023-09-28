@@ -1,6 +1,7 @@
-
+import "./footer.css";
 export const Footer = () => {
   return (
+    <div class="footer-subscribe">
     <div class="footer">
       <div class="footer-form-two w_form">
         <form id="wf-form-Footer-Form-Two" name="wf-form-Footer-Form-Two" data-name="Footer Form Two" action="https://gmail.us18.list-manage.com/subscribe/post?u=c0485792a496c37d51d6aa512&amp;id=216482239a&amp;f_id=00978de6f0" method="post" class="footer-form-container-two" data-wf-page-id="" data-wf-element-id="">
@@ -41,6 +42,7 @@ export const Footer = () => {
         </div>
         <div class="footer-copyright">© AP. All Rights Reserved 2023. Licensing</div>
       </div>
+    </div>
     </div>
   )
 }
