@@ -7,12 +7,12 @@ import { GrMailOption } from 'react-icons/gr';
 
 const Footer = () => {
     return (
-        <div className="bg-[#ffc26f] text-black py-10 px-7 lg:px-10">
-          <div className="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-5">
+        <div className="bg-[#ffc26f] text-black font-exo py-5 md:py-8 px-7 lg:px-10">
+          <div className="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-7">
             {/* Contact Info */}
             <div className="flex flex-col items-center md:items-start space-y-4">
-              <div className="text-2xl lg:text-3xl font-semibold">Contact Information</div>
-              <div className="flex flex-col space-y-2 lg:space-y-4 text-xl lg:text-2xl">
+              <div className="text-2xl lg:text-3xl font-[500]">Contact Information</div>
+              <div className="flex flex-col space-y-2 lg:space-y-4 text-xl lg:text-2xl font-[400]">
                 <div className="flex items-center space-x-3 lg:space-x-6">
                   <div className="text-3xl lg:text-4xl">
                     <LuPhone />
@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
     
             {/* Logo Section */}
-            <div className="flex flex-col items-center space-y-6 md:space-y-8">
+            <div className="flex flex-col items-center md:items-end space-y-4 md:space-y-5 lg:space-y-6">
               <div>
                 <svg className="w-24 h-auto md:w-28 lg:w-32" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1642 774">
                   <path d="M1283.33 3.66663C1223.2 9.1333 1181.47 17.1333 1137.6 31.6666C1112.67 39.9333 1096.93 47.9333 1088.27 56.3333C1073.87 70.6 1069.73 83 1072.93 101.8C1076.53 122.733 1088.67 139.533 1104.8 145.667C1115.73 149.8 1143.07 150.867 1162 147.8C1169.33 146.6 1182.27 144.733 1190.67 143.533C1199.07 142.467 1220.4 139.133 1238 136.333C1278.4 129.667 1316.8 126.067 1359.33 125C1390 124.2 1395.07 124.333 1422 127.533C1452.27 131.133 1468.27 134.2 1478.67 138.733C1494.13 145.4 1514.8 161.533 1520.13 171.133C1522.27 175 1522.13 200.067 1519.87 210.733C1517.73 221.267 1510.93 227.267 1488.27 238.733C1465.6 250.2 1456.8 252.467 1418.67 257C1379.73 261.533 1357.87 266.6 1332.67 276.6C1306.4 287 1292.8 294.733 1280.13 306.467C1271.73 314.333 1268.67 318.333 1263.73 328.067C1255.6 343.8 1254.13 351.533 1255.07 372.333C1255.87 391.667 1257.07 397.4 1269.33 447.667C1278.93 487 1284 504.6 1307.33 578.333C1335.73 668.6 1352.27 703 1367.47 703C1371.47 703 1377.2 696.333 1379.33 689.267C1383.07 676.733 1384.4 656.467 1383.6 622.333C1382.67 579.533 1381.07 562.067 1373.87 512.333C1370.53 489.933 1365.47 453.667 1362.67 431.667C1359.73 409.667 1357.07 389.267 1356.53 386.2L1355.73 380.867L1370 376.467C1386.93 371.4 1402.53 369.133 1442 366.333C1483.87 363.4 1501.47 359.133 1535.07 343.8C1571.33 327.267 1587.73 316.067 1605.47 295.8C1625.07 273.267 1635.47 247.4 1639.33 211.267C1643.07 175.667 1641.47 153.267 1633.73 131.667C1625.87 109.667 1621.47 102.467 1603.73 82.3333C1588.27 64.7333 1586.13 62.8666 1566 49.2666C1541.87 32.8666 1535.2 29.2666 1517.33 22.6C1497.2 15.1333 1474 9.79996 1441.47 5.5333C1414 1.79996 1407.2 1.39996 1365.33 0.999963C1324.8 0.599963 1315.07 0.86663 1283.33 3.66663Z" fill="currentColor"/>
@@ -39,18 +39,21 @@ const Footer = () => {
               </div>
               <div className="flex space-x-4">
                 {/* Social Links */}
-                <a href="#" className="text-3xl lg:text-4xl text-black hover:text-white transition-colors duration-500">
+                <a href="#" className="text-2xl md:text-3xl lg:text-4xl text-black hover:text-white transition-colors duration-500">
                   <FaFacebookF />
                 </a>
-                <a href="#" className="text-3xl lg:text-4xl text-black hover:text-white transition-colors duration-500">
+                <a href="#" className="text-2xl md:text-3xl lg:text-4xl text-black hover:text-white transition-colors duration-500">
                   <FaXTwitter />
                 </a>
-                <a href="#" className="text-3xl lg:text-4xl text-black hover:text-white transition-colors duration-500">
+                <a href="#" className="text-2xl md:text-3xl lg:text-4xl text-black hover:text-white transition-colors duration-500">
                   <FaInstagram />
                 </a>
                 <a href="#http://www.linkedin.com/in/phantuanan" className="text-3xl lg:text-4xl text-black hover:text-white transition-colors duration-500">
                   <FaLinkedinIn />
                 </a>
+              </div>
+              <div className='text-sm md:text-md lg:text-lg'>
+                <p>© AP. All Rights Reserved 2023. Licensing</p>
               </div>
             </div>
           </div>
