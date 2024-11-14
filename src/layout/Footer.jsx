@@ -1,29 +1,27 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from 'react-icons/fa';
-import { LuPhone } from 'react-icons/lu';
-import { HiOutlineMail } from 'react-icons/hi';
-import { GrMailOption } from 'react-icons/gr';
+import { FiMail, FiPhone } from 'react-icons/fi';
 
 const Footer = () => {
     return (
-        <div className="bg-[#ffc26f] text-black font-exo py-5 md:py-8 px-7 lg:px-10">
-          <div className="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-7">
+        <div className="bg-[#ffc26f] text-black font-exo w-full">
+          <div className="container max-w-full flex flex-col md:flex-row py-4 md:px-20 justify-between items-center space-y-7">
             {/* Contact Info */}
             <div className="flex flex-col items-center md:items-start space-y-4">
-              <div className="text-2xl lg:text-3xl font-[500]">Contact Information</div>
+              <div className="text-xl lg:text-2xl font-[500]">Contact Information</div>
               <div className="flex flex-col space-y-2 lg:space-y-4 text-xl lg:text-2xl font-[400]">
                 <div className="flex items-center space-x-3 lg:space-x-6">
-                  <div className="text-3xl lg:text-4xl">
-                    <LuPhone />
+                  <div className="text-3xl lg:text-4xl font-[200]">
+                    <FiPhone />
                   </div>
-                  <span>+81 1231231231</span>
+                  <span className='text-lg lg:text-xl'>+81 1231231231</span>
                 </div>
                 <div className="flex items-center space-x-3 lg:space-x-6">
                   <div className="text-3xl lg:text-4xl">
-                    <GrMailOption />
+                    <FiMail />
                   </div>
-                  <span>admin@gmail.com</span>
+                  <span className='text-lg lg:text-xl'>admin@gmail.com</span>
                 </div>
               </div>
             </div>
@@ -52,7 +50,7 @@ const Footer = () => {
                   <FaLinkedinIn />
                 </a>
               </div>
-              <div className='text-sm md:text-md lg:text-lg'>
+              <div className='text-sm md:text-sm lg:text-md'>
                 <p>© AP. All Rights Reserved 2023. Licensing</p>
               </div>
             </div>
