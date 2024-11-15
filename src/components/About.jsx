@@ -4,13 +4,13 @@ import { motion } from 'framer-motion';
 const About = () => {
     return (
         <div>
-            <section id='about' >
-                <motion.h1 className='text-[2.3rem] md:text-[2.75rem] lg:text-[3.25rem] font-[400] font-oswald text-center pt-4 lg:pt-6 tracking-wide -mb-5 '
+            <section id='about' className='py-4 md:py-5 lg:py-6' >
+                <motion.h1 className='text-[2.3rem] md:text-[2.75rem] lg:text-[3.25rem] font-[400] font-oswald text-center tracking-wide -mb-5 '
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 1, ease: 'easeOut' }}
                 >About</motion.h1>
-                <div className='flex flex-col text-md md:text-lg lg:text-xl space-y-3 md:space-y-4 lg:space-y-5 font-exo px-20 py-8  lg:py-11'>
+                <div className='flex flex-col text-md md:text-lg lg:text-xl space-y-3 md:space-y-4 lg:space-y-5 font-exo px-12 md:px-20 py-8  lg:py-11'>
                     <motion.p
                     initial={{ opacity: 0, x: -100 }}
                     animate={{ opacity: 1, x: 0 }}

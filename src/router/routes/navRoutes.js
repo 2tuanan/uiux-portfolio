@@ -1,6 +1,6 @@
 import { lazy } from "react"
 const Home = lazy(() => import('../../views/pages/Home'))
-const Details = lazy(() => import('../../views/pages/Details'))
+const PortfolioDetails = lazy(() => import('../../views/pages/PortfolioDetails'))
 
 export const navRoutes = [
     {
@@ -8,7 +8,7 @@ export const navRoutes = [
         element: <Home />
     },
     {
-        path: '/details',
-        element: <Details />
+        path: '/portfolio/:id',
+        element: <PortfolioDetails />
     }
 ]

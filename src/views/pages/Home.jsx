@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import About from '../../components/About';
+import Portfolio from '../../components/Portfolio';
 
 const Home = () => {
     return (
@@ -34,6 +35,7 @@ const Home = () => {
                 </div>
             </section>
             <About />
+            <Portfolio />
         </div>
     );
   };

@@ -3,3 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.marquee_track {
+    width: max-content; /* Ensures the items line up correctly */
+}
+
+.marquee_component:hover .marquee_track {
+    animation-play-state: paused; /* Pause on hover */
+}
