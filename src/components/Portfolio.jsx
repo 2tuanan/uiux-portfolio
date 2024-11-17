@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { portfolioData } from '../data/portfolioData';
 
 const Portfolio = () => {
     const portfolioImages = [
@@ -33,15 +34,15 @@ const Portfolio = () => {
                 </div>
                 <div className='marquee_component relative overflow-hidden m-8 w-7/12 lg:w-3/5'>
                     <div className='marquee_track flex w-[calc(200%)] animate-marquee'>
-                        {[...portfolioImages, ...portfolioImages].map((item, index) => (
+                        {[...portfolioData, ...portfolioData].map((item, index) => (
                             <Link key={index} to={`/portfolio/${item.id}`}
                             className='marquee_item flex-shrink-0 w-[18rem] md:w-[22rem] lg:w-[25rem] h-auto mx-4 shadow-sm flex flex-col items-center space-y-2'>
                                 <img className='w-full h-full object-cover rounded-3xl' 
-                                src={item.src} 
-                                alt={item.alt} />
+                                src={item.cover} 
+                                alt={item.slug} />
 
                                 <div className='w-full text-center'>
-                                    <p className='text-sm md:text-md'>{item.title}</p>
+                                    <p className='text-sm md:text-md'>{item.name}</p>
                                 </div>
                             </Link>
                         ))}
