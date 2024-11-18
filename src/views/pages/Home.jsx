@@ -9,7 +9,7 @@ const Home = () => {
         <div>
             <section id="home" 
             className="relative md:h-[550px] h-[400px] bg-center bg-fixed bg-no-repeat bg-cover" 
-            style={{backgroundImage: "url('http://localhost:3000/images/herobanner.jpg')"}}>
+            style={{backgroundImage: "url('/uiux-portfolio/images/herobanner.jpg')"}}>
                 {/* Dimming overlay */}
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 

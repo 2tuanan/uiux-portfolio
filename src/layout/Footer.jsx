@@ -12,13 +12,13 @@ const Footer = () => {
               <div className="flex flex-col space-y-2 lg:space-y-4 text-xl lg:text-2xl font-[400]">
                 <div className="flex items-center space-x-3 lg:space-x-6">
                   <div className="">
-                  <img className='pl-1 h-8 lg:h-10 w-auto' src="http://localhost:3000/icons/telephone.png" alt="" />
+                  <img className='pl-1 h-8 lg:h-10 w-auto' src="/uiux-portfolio/icons/telephone.png" alt="" />
                   </div>
                   <span className='text-lg lg:text-xl'>+81 1231231231</span>
                 </div>
                 <div className="flex items-center space-x-3 lg:space-x-6">
                   <div className="">
-                    <img className='h-10 lg:h-12 w-auto' src="http://localhost:3000/icons/email.png" alt="" />
+                    <img className='h-10 lg:h-12 w-auto' src="/uiux-portfolio/icons/email.png" alt="" />
                   </div>
                   <span className='text-lg lg:text-xl'>admin@gmail.com</span>
                 </div>

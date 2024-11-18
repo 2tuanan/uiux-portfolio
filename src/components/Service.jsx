@@ -16,7 +16,7 @@ const Service = () => {
                 <div className='flex flex-col md:flex-row items-center text-center md:text-left'>
                     <div className='flex flex-col md:flex-row items-center w-full'>
                         <div className='order-1 md:order-2'>
-                            <motion.img src="http://localhost:3000/icons/ui-ux.gif" alt="UI/UX Icon" className="h-20 w-auto"
+                            <motion.img src="/uiux-portfolio/icons/ui-ux.gif" alt="UI/UX Icon" className="h-20 w-auto"
                             initial={{ opacity: 0, x: -100 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ delay: 0.5, duration: 1, ease: 'easeOut' }}
@@ -39,7 +39,7 @@ const Service = () => {
                 <div className='flex flex-col md:flex-row-reverse items-center text-center md:text-right'>
                     <div className='flex flex-col md:flex-row-reverse items-center w-full'>
                         <div className='order-1 md:order-2'>
-                            <motion.img src="http://localhost:3000/icons/prototype.gif" alt="Protyping Icon" className="h-20 w-auto"
+                            <motion.img src="/uiux-portfolio/icons/prototype.gif" alt="Protyping Icon" className="h-20 w-auto"
                             initial={{ opacity: 0, x: 100 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ delay: 0.5, duration: 1, ease: 'easeOut' }}
@@ -62,7 +62,7 @@ const Service = () => {
                 <div className='flex flex-col md:flex-row items-center text-center md:text-left pb-6'>
                     <div className='flex flex-col md:flex-row items-center w-full'>
                         <div className='order-1 md:order-2'>
-                            <motion.img src="http://localhost:3000/icons/user-research.gif" alt="User-Research Icon" className="h-20 w-auto"
+                            <motion.img src="/uiux-portfolio/icons/user-research.gif" alt="User-Research Icon" className="h-20 w-auto"
                             initial={{ opacity: 0, x: -100 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ delay: 0.5, duration: 1, ease: 'easeOut' }}
