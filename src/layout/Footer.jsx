@@ -1,25 +1,24 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from 'react-icons/fa';
-import { FiMail, FiPhone } from 'react-icons/fi';
 
 const Footer = () => {
     return (
         <div className="bg-[#ffc26f] text-black font-exo w-full">
-          <div className="container max-w-full flex flex-col md:flex-row py-4 md:px-14 justify-between items-center space-y-6">
+          <div className="container max-w-full flex flex-col md:flex-row py-4 px-12 md:px-14 lg:px-20 justify-between items-center space-y-6">
             {/* Contact Info */}
             <div className="flex flex-col items-center md:items-start space-y-3">
               <div className="text-[1.6rem] md:text-[1.8rem] lg:text-[1.9rem] font-[500]">Contact Information</div>
               <div className="flex flex-col space-y-2 lg:space-y-4 text-xl lg:text-2xl font-[400]">
                 <div className="flex items-center space-x-3 lg:space-x-6">
-                  <div className="text-3xl lg:text-4xl font-[200]">
-                    <FiPhone />
+                  <div className="">
+                  <img className='pl-1 h-8 lg:h-10 w-auto' src="http://localhost:3000/icons/telephone.png" alt="" />
                   </div>
                   <span className='text-lg lg:text-xl'>+81 1231231231</span>
                 </div>
                 <div className="flex items-center space-x-3 lg:space-x-6">
-                  <div className="text-3xl lg:text-4xl">
-                    <FiMail />
+                  <div className="">
+                    <img className='h-10 lg:h-12 w-auto' src="http://localhost:3000/icons/email.png" alt="" />
                   </div>
                   <span className='text-lg lg:text-xl'>admin@gmail.com</span>
                 </div>
@@ -49,7 +48,7 @@ const Footer = () => {
                   <FaLinkedinIn />
                 </a>
               </div>
-              <div className='text-sm md:text-sm lg:text-md'>
+              <div className='text-sm md:text-sm lg:text-base'>
                 <p>© AP. All Rights Reserved 2023. Licensing</p>
               </div>
             </div>

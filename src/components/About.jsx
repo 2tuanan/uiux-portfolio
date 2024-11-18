@@ -10,7 +10,7 @@ const About = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 1, ease: 'easeOut' }}
                 >About</motion.h1>
-                <div className='flex flex-col text-md md:text-lg lg:text-xl space-y-3 md:space-y-4 lg:space-y-5 font-exo px-12 md:px-20 py-8  lg:py-11'>
+                <div className='flex flex-col text-base md:text-lg lg:text-xl space-y-3 md:space-y-4 lg:space-y-5 font-exo px-12 md:px-14 lg:px-20 py-8  lg:py-11'>
                     <motion.p
                     initial={{ opacity: 0, x: -100 }}
                     animate={{ opacity: 1, x: 0 }}

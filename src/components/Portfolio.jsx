@@ -7,14 +7,14 @@ const Portfolio = () => {
     return (
         <div>
             <section id='portfolio' className='bg-[#f9e0bb] text-black font-exo w-full flex flex-row justify-between py-4 md:py-5 lg:py-6 space-x-16'>
-                <div className='flex flex-col pl-12 md:pl-20 items-start w-2/5'>
+                <div className='flex flex-col pl-12 md:pl-14 lg:pl-20 items-start w-2/5'>
                     <motion.h1 className='text-[2.3rem] md:text-[2.75rem] lg:text-[3.25rem] 
                     font-[400] font-oswald text-center pt-4 lg:pt-6 tracking-wide -mb-5'
                     initial={{ opacity: 0, x: -100 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.5, duration: 1, ease: 'easeOut' }}
                     >Portfolio</motion.h1>
-                    <div className='flex flex-col text-md md:text-lg lg:text-xl space-y-3 md:space-y-4 lg:space-y-5 font-exo py-8  lg:py-11 '>
+                    <div className='flex flex-col text-base md:text-lg lg:text-xl space-y-3 md:space-y-4 lg:space-y-5 font-exo py-8  lg:py-11 '>
                         <motion.p
                         initial={{ opacity: 0, x: -100 }}
                         animate={{ opacity: 1, x: 0 }}
@@ -37,7 +37,7 @@ const Portfolio = () => {
                                 alt={item.slug} />
 
                                 <div className='w-full text-center'>
-                                    <p className='text-md md:text-lg shadow-md hover:shadow-xl'>{item.name}</p>
+                                    <p className='text-base md:text-lg shadow-md hover:shadow-xl'>{item.name}</p>
                                 </div>
                             </Link>
                         ))}
