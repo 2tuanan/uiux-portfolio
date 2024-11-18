@@ -16,7 +16,7 @@ const PortfolioDetails = () => {
             className="bg-[#f9e0bb] text-black font-exo w-full justify-between 
             py-6 md:py-8 lg:py-9" >
                 <div className="px-10 md:px-14 flex flex-col items-start justify-center 
-                h-full text-center text-[#000000] font-exo space-y-3 md:space-y-4 lg:space-y-5">
+                h-full text-center text-[#000000] font-exo space-y-1 md:space-y-2">
                     <h1 className='text-[1.8rem] md:text-[2rem] lg:text-[2.2rem] font-[500]'>{data.name}</h1>
                     <p className='text-[1rem] md:text-[1.2rem] lg:text-[1.4rem]'>{data.bannerPhrase}</p>
                 </div>

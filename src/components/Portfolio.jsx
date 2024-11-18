@@ -4,11 +4,6 @@ import { motion } from 'framer-motion';
 import { portfolioData } from '../data/portfolioData';
 
 const Portfolio = () => {
-    const portfolioImages = [
-        {id: 1, src: 'http://localhost:3000/images/port1.png', alt: 'Portfolio 1', title: 'CineSeat on Dedicated Mobile App'},
-        {id: 2, src: 'http://localhost:3000/images/port2.png', alt: 'Portfolio 2', title: 'LogiTrack on Web App'},
-        {id: 3, src: 'http://localhost:3000/images/port3.png', alt: 'Portfolio 3', title: 'EduSteps Multi-Platform App'},
-    ]
     return (
         <div>
             <section id='portfolio' className='bg-[#f9e0bb] text-black font-exo w-full flex flex-row justify-between py-4 md:py-5 lg:py-6 space-x-16'>
@@ -36,13 +31,13 @@ const Portfolio = () => {
                     <div className='marquee_track flex w-[calc(200%)] animate-marquee'>
                         {[...portfolioData, ...portfolioData].map((item, index) => (
                             <Link key={index} to={`/portfolio/${item.id}`}
-                            className='marquee_item flex-shrink-0 w-[18rem] md:w-[22rem] lg:w-[25rem] h-auto mx-4 shadow-sm flex flex-col items-center space-y-2'>
-                                <img className='w-full h-full object-cover rounded-3xl' 
+                            className='marquee_item flex-shrink-0 w-[18rem] md:w-[22rem] lg:w-[25rem] h-auto mx-4 flex flex-col items-center space-y-2'>
+                                <img className='w-full h-full object-cover rounded-3xl shadow-md hover:shadow-xl duration-500' 
                                 src={item.cover} 
                                 alt={item.slug} />
 
                                 <div className='w-full text-center'>
-                                    <p className='text-sm md:text-md'>{item.name}</p>
+                                    <p className='text-md md:text-lg shadow-md hover:shadow-xl'>{item.name}</p>
                                 </div>
                             </Link>
                         ))}

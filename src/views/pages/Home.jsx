@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import About from '../../components/About';
 import Portfolio from '../../components/Portfolio';
+import Service from '../../components/Service';
 
 const Home = () => {
     return (
@@ -36,6 +37,7 @@ const Home = () => {
             </section>
             <About />
             <Portfolio />
+            <Service />
         </div>
     );
   };
