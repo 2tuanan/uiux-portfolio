@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const Service = () => {
     return (
         <div>
-            <section id='service' className='py-4 md:py-7 lg:py-8 px-12 md:px-14 lg:px-20 space-y-8'>
+            <section id='services' className='py-4 md:py-7 lg:py-8 px-12 md:px-14 lg:px-20 space-y-8'>
                 <div className='container mx-auto px-4'>
                     <motion.h2 className='text-[2.3rem] md:text-[2.75rem] lg:text-[3.25rem] font-[400] 
                     font-oswald text-center tracking-wide'

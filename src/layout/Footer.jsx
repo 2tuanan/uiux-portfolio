@@ -49,7 +49,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className='text-sm md:text-sm lg:text-base'>
-                <p>© AP. All Rights Reserved 2023. Licensing</p>
+                <p>© AP. All Rights Reserved 2024. Licensing</p>
               </div>
             </div>
           </div>
