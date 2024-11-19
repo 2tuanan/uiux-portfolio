@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/uiux-portfolio/static/css/main.7af2dccf.css",
-    "main.js": "/uiux-portfolio/static/js/main.d49452f1.js",
-    "static/js/675.cd910b12.chunk.js": "/uiux-portfolio/static/js/675.cd910b12.chunk.js",
+    "main.js": "/uiux-portfolio/static/js/main.bab63522.js",
+    "static/js/675.11b63ba5.chunk.js": "/uiux-portfolio/static/js/675.11b63ba5.chunk.js",
     "static/js/638.39cfc9a8.chunk.js": "/uiux-portfolio/static/js/638.39cfc9a8.chunk.js",
     "static/js/194.c3fac06d.chunk.js": "/uiux-portfolio/static/js/194.c3fac06d.chunk.js",
     "static/js/514.14747d21.chunk.js": "/uiux-portfolio/static/js/514.14747d21.chunk.js",
     "static/js/829.3bd9fff5.chunk.js": "/uiux-portfolio/static/js/829.3bd9fff5.chunk.js",
     "index.html": "/uiux-portfolio/index.html",
     "main.7af2dccf.css.map": "/uiux-portfolio/static/css/main.7af2dccf.css.map",
-    "main.d49452f1.js.map": "/uiux-portfolio/static/js/main.d49452f1.js.map",
-    "675.cd910b12.chunk.js.map": "/uiux-portfolio/static/js/675.cd910b12.chunk.js.map",
+    "main.bab63522.js.map": "/uiux-portfolio/static/js/main.bab63522.js.map",
+    "675.11b63ba5.chunk.js.map": "/uiux-portfolio/static/js/675.11b63ba5.chunk.js.map",
     "638.39cfc9a8.chunk.js.map": "/uiux-portfolio/static/js/638.39cfc9a8.chunk.js.map",
     "194.c3fac06d.chunk.js.map": "/uiux-portfolio/static/js/194.c3fac06d.chunk.js.map",
     "514.14747d21.chunk.js.map": "/uiux-portfolio/static/js/514.14747d21.chunk.js.map",
@@ -18,6 +18,6 @@
   },
   "entrypoints": [
     "static/css/main.7af2dccf.css",
-    "static/js/main.d49452f1.js"
+    "static/js/main.bab63522.js"
   ]
 }
