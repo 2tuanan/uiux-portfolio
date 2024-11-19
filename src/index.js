@@ -6,7 +6,7 @@ const App = lazy(() => import('./App'));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename='/uiux-portfolio'>
     <Suspense fallback={<div>Loading...</div>}>
       <App />
     </Suspense>

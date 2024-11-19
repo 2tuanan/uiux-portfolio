@@ -16,7 +16,7 @@ const Header = () => {
   }, [location.hash]);
 
   const handleScrollAndNavigate = (section) => {
-    if (location.pathname === "/") {
+    if (location.pathname === "/uiux-portfolio/") {
       const target = document.getElementById(section);
       if (target) {
         scroll.scrollTo(target.offsetTop, {
@@ -26,7 +26,7 @@ const Header = () => {
       }
     } else {
       console.log('here');
-      window.location.href = `/#${section}`;
+      window.location.href = `/uiux-portfolio/#${section}`;
       console.log('step 1');
       setTimeout(()=> {
         const target = document.getElementById(section);
