@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { portfolioData } from '../../data/portfolioData';
 import { motion } from 'framer-motion';
 
