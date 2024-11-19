@@ -6,7 +6,7 @@ export const portfolioData = [
         cover: '/uiux-portfolio/images/port1.png',
         bannerPhrase: 'Elevate Your Movie Experience',
         description: 'CineSeat is a reservation seat app designed for movie theaters, offering a seamless and intuitive experience for moviegoers to reserve their preferred seats with ease.',
-        prototypeUrl: 'https://www.figma.com/proto/',
+        prototypeUrl: 'https://www.figma.com/proto/vpXIZNaDZJJwgZ4PvNmFgE/CineSeat-v3',
         caseStudyUrl: '',
     },
     {

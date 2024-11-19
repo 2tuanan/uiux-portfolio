@@ -10,20 +10,20 @@ const Portfolio = () => {
                 <div className='flex flex-col pl-12 md:pl-14 lg:pl-20 items-start w-2/5'>
                     <motion.h1 className='text-[2.3rem] md:text-[2.75rem] lg:text-[3.25rem] 
                     font-[400] font-oswald text-center pt-4 lg:pt-6 tracking-wide -mb-5'
-                    initial={{ opacity: 0, x: -100 }}
+                    initial={{ opacity: 0, x: -400 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.5, duration: 1, ease: 'easeOut' }}
+                    transition={{ delay: 0.2, duration: 0.5, ease: 'easeOut' }}
                     >Portfolio</motion.h1>
                     <div className='flex flex-col text-base md:text-lg lg:text-xl space-y-3 md:space-y-4 lg:space-y-5 font-exo py-8  lg:py-11 '>
                         <motion.p
                         initial={{ opacity: 0, x: -100 }}
                         animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 0.9, duration: 1.5, ease: 'easeIn' }}
+                        transition={{ delay: 0.4, duration: 1, ease: 'easeIn' }}
                         >These are all my designs from the course. </motion.p>
                         <motion.p
                         initial={{ opacity: 0, x: -100 }}
                         animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 1.3, duration: 1.5, ease: 'easeIn' }}
+                        transition={{ delay: 0.6, duration: 1, ease: 'easeIn' }}
                         >While they may still have some issues and be incomplete, they possess the app's main functionality.</motion.p>
                     </div>
                 </div>

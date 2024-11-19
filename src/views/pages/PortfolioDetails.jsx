@@ -35,36 +35,42 @@ const PortfolioDetails = () => {
                     src={data.cover} alt={data.slug}
                     initial={{ opacity: 0, y: 100 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.6, duration: 0.8, ease: 'circInOut' }}
+                    transition={{ delay: 0.6, duration: 0.7, ease: 'circInOut' }}
                     />
                     
                 </div>
             </section>
-            <section className='flex flex-col space-y-4 pt-2 pb-6 md:pb-8 lg:pb-9'>
+            <section className='flex flex-col space-y-4 pt-5 pb-6 md:pb-8 lg:pb-9'>
                 <div className='flex flex-col space-y-3 px-12 md:px-14 lg:px-20 font-exo'>
                     <motion.h2 className='text-[1.5rem] md:text-[1.7rem] lg:text-[1.9rem] font-[500]'
                     initial={{ opacity: 0, x: -100 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.6, duration: 0.8, ease: 'easeInOut' }}
+                    transition={{ delay: 0.6, duration: 0.5, ease: 'easeInOut' }}
                     >Description</motion.h2>
                     <motion.p className='text-base md:text-lg lg:text-xl'
                     initial={{ opacity: 0, x: -100 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 1, duration: 0.8, ease: 'easeInOut' }}
+                    transition={{ delay: 0.8, duration: 0.8, ease: 'easeInOut' }}
                     >{data.description}</motion.p>
                 </div>
-                <motion.div className='px-12 md:px-14 lg:px-20 flex flex-row space-x-4'
-                initial={{ opacity: 0, y: 100 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.4, duration: 0.8, ease: 'easeInOut' }}
-                >
-                    <Link className='bg-[#000000] text-white font-exo font-[400] text-[1rem] md:text-[1.2rem] lg:text-[1.3rem] 
-                    tracking-wide rounded-full py-2 px-3 md:py-3 md:px-[0.8rem] border-2 border-[#000000] 
-                    transition-all duration-500 hover:bg-white hover:text-[#000000]' to={data.caseStudyUrl}>View Case Study</Link>
-                    <Link className='bg-[#000000] text-white font-exo font-[400] text-[1rem] md:text-[1.2rem] lg:text-[1.3rem] 
-                    tracking-wide rounded-full py-2 px-3 md:py-3 md:px-[0.8rem] border-2 border-[#000000] 
-                    transition-all duration-500 hover:bg-white hover:text-[#000000]' to={data.prototypeUrl}>Explore Prototype</Link>
-                </motion.div>
+                <div className='px-12 md:px-14 lg:px-20 flex flex-row space-x-4'>
+                    <motion.a href={data.caseStudyUrl}
+                    className='bg-[#000000] text-white font-exo font-[400] text-[1rem] md:text-[1.2rem] lg:text-[1.3rem] 
+                    tracking-wide rounded-full py-2 px-3 md:py-[0.6rem] md:px-[0.8rem] border-2 border-[#000000] 
+                    transition-all duration-500 hover:bg-white hover:text-[#000000]'
+                    initial={{ opacity: 0, x: -800 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 1, duration: 0.56, ease: 'backIn' }}
+                    >View Case Study</motion.a>
+                    <motion.a href={data.prototypeUrl} target='_blank' rel='noopener noreferrer'
+                    className='bg-[#000000] text-white font-exo font-[400] text-[1rem] md:text-[1.2rem] lg:text-[1.3rem] 
+                    tracking-wide rounded-full py-2 px-3 md:py-[0.6rem] md:px-[0.8rem] border-2 border-[#000000] 
+                    transition-all duration-500 hover:bg-white hover:text-[#000000]' to={data.prototypeUrl}
+                    initial={{ opacity: 0, x: -1000 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 1, duration: 0.4, ease: 'backIn' }}
+                    >Explore Prototype</motion.a>
+                </div>
             </section>
         </div>
     );
