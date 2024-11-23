@@ -31,7 +31,7 @@ const Home = () => {
                         initial={{ opacity: 0, x: 50 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.3, duration: 1, ease: 'easeOut' }}
-                        >A passionate UI/UX designer dedicated to creating digital experiences</motion.p>
+                        >This website highlights my projects and skills from the Google UX Design Specialization.</motion.p>
                     </div>
                 </div>
             </section>

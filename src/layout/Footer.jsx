@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF, FaGithub } from "react-icons/fa6";
 import { FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
@@ -20,7 +20,7 @@ const Footer = () => {
                   <div className="">
                     <img className='h-10 lg:h-12 w-auto' src="/uiux-portfolio/icons/email.png" alt="" />
                   </div>
-                  <span className='text-lg lg:text-xl'>admin@gmail.com</span>
+                  <span className='text-lg lg:text-xl'>pantoan288@gmail.com</span>
                 </div>
               </div>
             </div>
@@ -38,18 +38,15 @@ const Footer = () => {
                 <a href="#" className="text-2xl md:text-3xl lg:text-4xl text-black hover:text-white transition-colors duration-500">
                   <FaFacebookF />
                 </a>
-                <a href="#" className="text-2xl md:text-3xl lg:text-4xl text-black hover:text-white transition-colors duration-500">
-                  <FaXTwitter />
+                <a href="https://github.com/2tuanan" target='_blank' rel='noopener nonreferrer' className="text-2xl md:text-3xl lg:text-4xl text-black hover:text-white transition-colors duration-500">
+                  <FaGithub />
                 </a>
-                <a href="#" className="text-2xl md:text-3xl lg:text-4xl text-black hover:text-white transition-colors duration-500">
-                  <FaInstagram />
-                </a>
-                <a href="http://www.linkedin.com/in/phantuanan" target='_blank' rel='noopener noreferrer' className="text-2xl md:text-3xl lg:text-4xl text-black hover:text-white transition-colors duration-500">
+                <a href="https://www.linkedin.com/in/phantuanan" target='_blank' rel='noopener noreferrer' className="text-2xl md:text-3xl lg:text-4xl text-black hover:text-white transition-colors duration-500">
                   <FaLinkedinIn />
                 </a>
               </div>
               <div className='text-sm md:text-sm lg:text-base'>
-                <p>© AP. All Rights Reserved 2024. Licensing</p>
+                <p>&copy; AP. All Rights Reserved 2024. Licensing</p>
               </div>
             </div>
           </div>
