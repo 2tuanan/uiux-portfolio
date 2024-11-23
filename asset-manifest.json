@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/uiux-portfolio/static/css/main.ec1926e4.css",
-    "main.js": "/uiux-portfolio/static/js/main.7eb5bdb4.js",
-    "static/js/675.a6babebb.chunk.js": "/uiux-portfolio/static/js/675.a6babebb.chunk.js",
-    "static/js/638.39cfc9a8.chunk.js": "/uiux-portfolio/static/js/638.39cfc9a8.chunk.js",
+    "main.js": "/uiux-portfolio/static/js/main.cdc5fc1a.js",
+    "static/js/675.0d701f25.chunk.js": "/uiux-portfolio/static/js/675.0d701f25.chunk.js",
+    "static/js/638.81cd7310.chunk.js": "/uiux-portfolio/static/js/638.81cd7310.chunk.js",
     "static/js/194.c3fac06d.chunk.js": "/uiux-portfolio/static/js/194.c3fac06d.chunk.js",
     "static/js/514.14747d21.chunk.js": "/uiux-portfolio/static/js/514.14747d21.chunk.js",
-    "static/js/941.11651077.chunk.js": "/uiux-portfolio/static/js/941.11651077.chunk.js",
+    "static/js/941.528ea023.chunk.js": "/uiux-portfolio/static/js/941.528ea023.chunk.js",
     "index.html": "/uiux-portfolio/index.html",
     "main.ec1926e4.css.map": "/uiux-portfolio/static/css/main.ec1926e4.css.map",
-    "main.7eb5bdb4.js.map": "/uiux-portfolio/static/js/main.7eb5bdb4.js.map",
-    "675.a6babebb.chunk.js.map": "/uiux-portfolio/static/js/675.a6babebb.chunk.js.map",
-    "638.39cfc9a8.chunk.js.map": "/uiux-portfolio/static/js/638.39cfc9a8.chunk.js.map",
+    "main.cdc5fc1a.js.map": "/uiux-portfolio/static/js/main.cdc5fc1a.js.map",
+    "675.0d701f25.chunk.js.map": "/uiux-portfolio/static/js/675.0d701f25.chunk.js.map",
+    "638.81cd7310.chunk.js.map": "/uiux-portfolio/static/js/638.81cd7310.chunk.js.map",
     "194.c3fac06d.chunk.js.map": "/uiux-portfolio/static/js/194.c3fac06d.chunk.js.map",
     "514.14747d21.chunk.js.map": "/uiux-portfolio/static/js/514.14747d21.chunk.js.map",
-    "941.11651077.chunk.js.map": "/uiux-portfolio/static/js/941.11651077.chunk.js.map"
+    "941.528ea023.chunk.js.map": "/uiux-portfolio/static/js/941.528ea023.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec1926e4.css",
-    "static/js/main.7eb5bdb4.js"
+    "static/js/main.cdc5fc1a.js"
   ]
 }
