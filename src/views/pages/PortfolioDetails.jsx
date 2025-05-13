@@ -54,14 +54,24 @@ const PortfolioDetails = () => {
                     >{data.description}</motion.p>
                 </div>
                 <div className='px-12 md:px-14 lg:px-20 flex flex-row space-x-4'>
-                    <motion.a href={data.caseStudyUrl}
-                    className='bg-[#000000] text-white font-exo font-[400] text-[1rem] md:text-[1.2rem] lg:text-[1.3rem] 
-                    tracking-wide rounded-full py-2 px-3 md:py-[0.6rem] md:px-[0.8rem] border-2 border-[#000000] 
-                    transition-all duration-500 hover:bg-white hover:text-[#000000]'
-                    initial={{ opacity: 0, x: -800 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 1, duration: 0.56, ease: 'backIn' }}
-                    >View Case Study</motion.a>
+                    {data.caseStudyUrl ? (
+                        <motion.a href={data.caseStudyUrl} target='_blank' rel='noopener noreferrer'
+                        className='bg-[#000000] text-white font-exo font-[400] text-[1rem] md:text-[1.2rem] lg:text-[1.3rem] 
+                        tracking-wide rounded-full py-2 px-3 md:py-[0.6rem] md:px-[0.8rem] border-2 border-[#000000] 
+                        transition-all duration-500 hover:bg-white hover:text-[#000000]'
+                        initial={{ opacity: 0, x: -800 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 1, duration: 0.56, ease: 'backIn' }}
+                        >View Case Study</motion.a>
+                    ) : (
+                        <motion.span 
+                        className='bg-gray-400 text-white font-exo font-[400] text-[1rem] md:text-[1.2rem] lg:text-[1.3rem] 
+                        tracking-wide rounded-full py-2 px-3 md:py-[0.6rem] md:px-[0.8rem] border-2 border-gray-400 cursor-not-allowed'
+                        initial={{ opacity: 0, x: -800 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 1, duration: 0.56, ease: 'backIn' }}
+                        >Case Study Coming Soon</motion.span>
+                    )}
                     <motion.a href={data.prototypeUrl} target='_blank' rel='noopener noreferrer'
                     className='bg-[#000000] text-white font-exo font-[400] text-[1rem] md:text-[1.2rem] lg:text-[1.3rem] 
                     tracking-wide rounded-full py-2 px-3 md:py-[0.6rem] md:px-[0.8rem] border-2 border-[#000000] 
