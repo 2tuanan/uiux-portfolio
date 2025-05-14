@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/uiux-portfolio/static/css/main.ec1926e4.css",
-    "main.js": "/uiux-portfolio/static/js/main.cdc5fc1a.js",
-    "static/js/675.0d701f25.chunk.js": "/uiux-portfolio/static/js/675.0d701f25.chunk.js",
-    "static/js/638.81cd7310.chunk.js": "/uiux-portfolio/static/js/638.81cd7310.chunk.js",
-    "static/js/194.c3fac06d.chunk.js": "/uiux-portfolio/static/js/194.c3fac06d.chunk.js",
-    "static/js/514.14747d21.chunk.js": "/uiux-portfolio/static/js/514.14747d21.chunk.js",
+    "main.css": "/uiux-portfolio/static/css/main.e6d2de28.css",
+    "main.js": "/uiux-portfolio/static/js/main.2d11af24.js",
+    "static/js/675.420a599b.chunk.js": "/uiux-portfolio/static/js/675.420a599b.chunk.js",
+    "static/js/638.6925991d.chunk.js": "/uiux-portfolio/static/js/638.6925991d.chunk.js",
+    "static/js/194.49b78caf.chunk.js": "/uiux-portfolio/static/js/194.49b78caf.chunk.js",
+    "static/js/50.d3623b5f.chunk.js": "/uiux-portfolio/static/js/50.d3623b5f.chunk.js",
     "static/js/941.528ea023.chunk.js": "/uiux-portfolio/static/js/941.528ea023.chunk.js",
     "index.html": "/uiux-portfolio/index.html",
-    "main.ec1926e4.css.map": "/uiux-portfolio/static/css/main.ec1926e4.css.map",
-    "main.cdc5fc1a.js.map": "/uiux-portfolio/static/js/main.cdc5fc1a.js.map",
-    "675.0d701f25.chunk.js.map": "/uiux-portfolio/static/js/675.0d701f25.chunk.js.map",
-    "638.81cd7310.chunk.js.map": "/uiux-portfolio/static/js/638.81cd7310.chunk.js.map",
-    "194.c3fac06d.chunk.js.map": "/uiux-portfolio/static/js/194.c3fac06d.chunk.js.map",
-    "514.14747d21.chunk.js.map": "/uiux-portfolio/static/js/514.14747d21.chunk.js.map",
+    "main.e6d2de28.css.map": "/uiux-portfolio/static/css/main.e6d2de28.css.map",
+    "main.2d11af24.js.map": "/uiux-portfolio/static/js/main.2d11af24.js.map",
+    "675.420a599b.chunk.js.map": "/uiux-portfolio/static/js/675.420a599b.chunk.js.map",
+    "638.6925991d.chunk.js.map": "/uiux-portfolio/static/js/638.6925991d.chunk.js.map",
+    "194.49b78caf.chunk.js.map": "/uiux-portfolio/static/js/194.49b78caf.chunk.js.map",
+    "50.d3623b5f.chunk.js.map": "/uiux-portfolio/static/js/50.d3623b5f.chunk.js.map",
     "941.528ea023.chunk.js.map": "/uiux-portfolio/static/js/941.528ea023.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec1926e4.css",
-    "static/js/main.cdc5fc1a.js"
+    "static/css/main.e6d2de28.css",
+    "static/js/main.2d11af24.js"
   ]
 }
